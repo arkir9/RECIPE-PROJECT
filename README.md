@@ -4,14 +4,14 @@ Tasty Tales
 
 
 
-A web application where users can access countless recipies all in one click
+A web application where users can access countless recipes all in one click
 
 ## API Reference
 
 #### Get all items
 
-```http
-  GET /api/items
+```HTTP
+   www.themealdb.com/api/json/v1/1/search.php?s=
 ```
 
 | Parameter | Type     | Description                |
@@ -20,8 +20,8 @@ A web application where users can access countless recipies all in one click
 
 #### Get item
 
-```http
-  GET /api/items/${id}
+```HTTP
+ www.themealdb.com/api/json/v1/1/search.php?s=${recipeies.value}
 ```
 
 | Parameter | Type     | Description                       |
@@ -39,6 +39,6 @@ Takes two numbers and returns the sum.
 
 
 ## 🚀 About Me
-I'm a full stack developer...
+I'm a full-stack developer...
 
 https://github.com/arkir9
